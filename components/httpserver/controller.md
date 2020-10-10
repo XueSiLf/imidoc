@@ -217,7 +217,7 @@ $ip = $this->request->getServerParam('remote_addr');
 该对象同样可以用如下方法全局调用：
 
 ```php
-/** @var \Imi\Server\Http\Message\Response $request */
+/** @var \Imi\Server\Http\Message\Response $response */
 $response = \Imi\RequestContext::get('response');
 ```
 
